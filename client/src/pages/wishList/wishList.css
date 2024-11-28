@@ -1,0 +1,23 @@
+.wishList {
+  width: 65vw;
+  height: fit-content;
+  background-color: rgb(233, 233, 233);
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.5rem 0.5rem 1rem rgb(202, 202, 202),
+    -0.5rem -0.5rem 1rem rgb(202, 202, 202);
+  margin: auto;
+  margin-bottom: 7rem;
+}
+
+.wishList h1 {
+  margin: 1rem;
+}
+
+.wishList span {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.notification {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  left: 1.74rem;
+  bottom: 1.7rem;
+  user-select: none;
+}

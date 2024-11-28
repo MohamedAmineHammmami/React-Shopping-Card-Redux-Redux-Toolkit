@@ -1,0 +1,26 @@
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60%;
+  background-color: white;
+  box-shadow: 0 1rem 1rem rgb(223, 223, 223);
+  position: sticky;
+  margin-bottom: 6rem;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+  user-select: none;
+}
+
+.wishlist {
+  position: relative;
+  cursor: pointer;
+}

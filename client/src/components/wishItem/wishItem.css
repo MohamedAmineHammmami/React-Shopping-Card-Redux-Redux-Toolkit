@@ -1,0 +1,77 @@
+.wishItem {
+  width: 95%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 0.05rem solid black;
+  padding: 1rem;
+}
+
+.sectionOne {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+}
+.sectionOne img {
+  width: 10%;
+}
+.sectionTwo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 50%;
+}
+
+.sectionTwo button {
+  width: 20%;
+  height: 80%;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.sectionTwo button:hover {
+  width: 20%;
+  height: 80%;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.itemNum {
+  width: 20%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.sectionThree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 20%;
+  height: 80%;
+}
+
+.priceTag {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+hr {
+  border: 0.05rem solid black;
+  width: 93%;
+}
+
+.cancel {
+  color: red;
+}
+
+.cancel:hover {
+  transform: scale(1.15);
+}
